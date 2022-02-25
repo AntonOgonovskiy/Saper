@@ -1,0 +1,75 @@
+body {
+	max-width: 1440px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 auto;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.header-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+	padding: 0 10px;
+	border-bottom: solid 2px black;
+}
+.list {
+	width: 200px;
+}
+.easy, .medium, .hard {
+	width: 80px;
+}
+
+
+
+.main-wrapper {
+	height: calc(100vh - 110px);
+}
+.img-point {
+	margin: 0.5px;
+	width: 30px;
+	height: 30px;
+}
+.game-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+.row {
+display: flex;
+flex-direction: column;
+}
+
+
+
+
+
+.footer-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+	border-top: solid 2px black;
+	padding: 0 10px;
+}
+.link {
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+}
+.link:hover{
+	color: red	;
+}
+.rss-link {
+	width: 60px;
+	transition: 0.3s;
+}
+.rss-link:hover {
+	transform: scale(0.9);
+}
